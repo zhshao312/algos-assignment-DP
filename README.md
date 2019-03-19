@@ -34,4 +34,29 @@ If only one glass sheet is available and we want to be absolutely sure of gettin
 #### (f) Describe how you would memoize GlassFallingRecur
 #### (g) Code a bottom-up solution GlassFallingBottomUp(int n numFloors, int m numGlass)
 
-#### Turn in: A pdf write-up of parts: a, b, d, e, f with good explanations! Coding parts c, g in the file GlassFalling.java
+#### Turn in: A pdf write-up of parts: a, b, d, e, f with clear and careful explanations! Coding parts c, g in the file GlassFalling.java
+
+
+## 2. Rod cutting
+
+Straightforward! I just want you to implement the Rod Cutting problem that is highlighted
+in the textbook as the first example in Chapter 15 Dynamic Programming. So first,
+read all about that problem in the textbook.
+
+#### Example:
+Given a rod length N and table of prices like so:
+
+
+length   | 1 2 3 4 5  6  7  8
+
+price    | 1 5 8 9 10 17 17 20
+
+Return: max value you could get for the rod pieces you cut up
+
+#### (a) Draw the recursion tree for a rod of length 5
+(Above is just an example, you could be given anything where length i  = 1 to N and price is any integer)
+#### (b) On page 370: answer 15.1-2 by coming up with a counterexample, meaning come up with a situation / some input that shows we can only try all the options via dynamic programming instead
+of using a greedy choice.
+#### (c) Code the memoized recursive version in RodCutting.java under rodCuttingRecur
+#### (d) Code the bottom-up solution in RodCutting.java under rodCuttingBottomUp
+#### Turn in: A pdf write-up of parts: a, b with clear and careful explanations! Coding parts c, d in the file RodCutting.java
