@@ -1,4 +1,4 @@
-# Dynamic Programming Assignment
+# Dynamic Programming Assignment (Due April 2nd)
 
 First, instructions:
 * git fork this repository to your own github account, then clone it from there
